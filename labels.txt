@@ -1,0 +1,9 @@
+Code CPC,Title
+A,Human necessities
+B,Performing operations; transporting
+C,Chemistry; metallurgy
+D,Textiles; paper
+E,Fixed constructions
+F,Mechanical engineering; lighting; heating; weapons; blasting engines or pumps
+G,Physics
+H,Electricity
