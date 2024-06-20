@@ -19,7 +19,7 @@ def clean_text(text):
     return ' '.join(tokens)
 
 # Lire le fichier CSV
-df = pd.read_csv('EFREI - LIPSTIP - 50k elements EPO.csv', nrows=2000)  # Lire plus de lignes pour un meilleur modèle
+df = pd.read_csv('EFREI - LIPSTIP - 50k elements EPO.csv', nrows=2000)  
 
 # Nettoyer les descriptions
 df['Cleaned_Description'] = df['description'].apply(clean_text)
@@ -28,11 +28,11 @@ df['Cleaned_Description'] = df['description'].apply(clean_text)
 tfidf_vectorizer = TfidfVectorizer(max_features=5000)  # Limite à 5000 mots les plus fréquents
 X = tfidf_vectorizer.fit_transform(df['Cleaned_Description'])
 
-# Pour simplifier, nous utiliserons uniquement le premier code IPC de chaque entrée
-df['Primary_CPC'] = df['CPC'].apply(lambda x: x.split(';')[0])
+# Simplifier les labels CPC en utilisant uniquement la première lettre et les deux premiers chiffres
+df['Primary_CPC_Simplified'] = df['CPC'].apply(lambda x: x.split(';')[0][:3])
 
 # Diviser les données en ensembles d'entraînement et de test
-X_train, X_test, y_train, y_test = train_test_split(X, df['Primary_CPC'], test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, df['Primary_CPC_Simplified'], test_size=0.2, random_state=42)
 
 # Entraîner un modèle de régression logistique
 model = LogisticRegression(max_iter=1000)
@@ -47,11 +47,11 @@ print(classification_report(y_test, y_pred))
 # Obtenir les coefficients du modèle
 coefficients = model.coef_
 
-# Obtenir les mots les plus importants pour chaque code IPC
+# Obtenir les mots les plus importants pour chaque classe CPC simplifiée
 feature_names = tfidf_vectorizer.get_feature_names_out()
 
-# Afficher les mots les plus importants pour les premières classes IPC
-for idx, ipc_code in enumerate(model.classes_[:10]):  
+# Afficher les mots les plus importants pour les premières classes CPC
+for idx, cpc_code in enumerate(model.classes_[:20]):  
     top_features = coefficients[idx].argsort()[-10:][::-1]
     top_words = [feature_names[i] for i in top_features]
-    print(f"Mots-clés pour CPC {ipc_code}: {', '.join(top_words)}")
+    print(f"Mots-clés pour CPC {cpc_code} : {', '.join(top_words)}")
