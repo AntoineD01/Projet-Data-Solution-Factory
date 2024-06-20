@@ -1,0 +1,22 @@
+Code CPC,Description
+C01,Inorganic chemistry
+C02,Treatment of water, waste water, sewage, or sludge
+C03,Glass; mineral or slag wool
+C04,Cements; concrete; artificial stone; ceramics; refractories
+C05,Fertilisers; manufacture thereof
+C06,Explosives; matches
+C07,Organic chemistry
+C08,Organic macromolecular compounds; their preparation or chemical working-up; compositions based thereon
+C09,Dyes; paints; polishes; natural resins; adhesives; compositions not otherwise provided for; applications of materials not otherwise provided for
+C10,Petroleum, gas or coke industries; technical gases containing carbon monoxide; fuels; lubricants; peat
+C11,Animal or vegetable oils, fats, fatty substances or waxes; fatty acids therefrom; detergents; candles
+C12,Biochemistry; beer; spirits; wine; vinegar; microbiology; enzymology; mutation or genetic engineering
+C13,Sugar industry
+C14,Skins; hides; pelts; leather; metallurgy
+C21,Metallurgy of iron
+C22,Metallurgy; ferrous or non-ferrous alloys; treatment of alloys or non-ferrous metals
+C23,Coating metallic material; coating material with metallic material; chemical surface treatment; diffusion treatment of metallic material; coating by vacuum evaporation, by sputtering, by ion implantation or by chemical vapour deposition, in general; inhibiting corrosion of metallic material or incrustation in general
+C25,Electrolytic or electrophoretic processes; apparatus therefor
+C30,Crystal growth; combinatorial technology
+C40,Combinatorial technology
+C99,Subject matter not otherwise provided for in this section

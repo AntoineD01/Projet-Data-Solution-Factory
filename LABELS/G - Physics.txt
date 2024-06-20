@@ -1,0 +1,16 @@
+Code CPC,Description
+G01,Measuring; testing
+G02,Optics
+G03,Photography; cinematography; analogous techniques using waves other than optical waves; electrography; holography
+G04,Horology
+G05,Controlling; regulating
+G06,Computing; calculating or counting
+G07,Checking-devices
+G08,Signalling
+G09,Education; cryptography; display; advertising; seals
+G10,Musical instruments; acoustics
+G11,Information storage
+G12,Instrument details
+G16,Information and communication technology [ICT] specially adapted for specific application fields
+G21,Nuclear physics; nuclear engineering
+G99,Subject matter not otherwise provided for in this section

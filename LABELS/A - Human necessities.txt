@@ -1,0 +1,17 @@
+Code CPC,Description
+A01,Agriculture; forestry; animal husbandry; hunting; trapping; fishing; foodstuffs; tobacco
+A21,Baking; edible doughs
+A22,Butchering; meat treatment; processing poultry or fish
+A23,Foods or foodstuffs; treatment thereof, not covered by other classes
+A24,Tobacco; cigars; cigarettes; simulated smoking devices; smokers' requisites; personal or domestic articles
+A41,Wearing apparel
+A42,Headwear
+A43,Footwear
+A44,Haberdashery; jewellery
+A45,Hand or travelling articles
+A46,Brushware
+A47,Furniture; domestic articles or appliances; coffee mills; spice mills; suction cleaners in general
+A61,Medical or veterinary science; hygiene
+A62,Life-saving; fire-fighting
+A63,Sports; games; amusements
+A99,Subject matter not otherwise provided for in this section

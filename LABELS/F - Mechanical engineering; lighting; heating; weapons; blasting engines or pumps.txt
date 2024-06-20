@@ -1,0 +1,20 @@
+Code CPC,Description
+F01,Machines or engines in general; engine plants in general; steam engines
+F02,Combustion engines; hot-gas or combustion-product engine plants
+F03,Machines or engines for liquids; wind, spring, or weight motors; producing mechanical power or a reactive propulsive thrust, not otherwise provided for
+F04,Positive-displacement machines for liquids; pumps for liquids or elastic fluids
+F05,Indexing schemes relating to engines or pumps in various subclasses of classes F01-F04
+F15,Fluid-pressure actuators; hydraulics or pneumatics in general
+F16,Engineering elements and units; general measures for producing and maintaining effective functioning of machines or installations; thermal insulation in general
+F17,Storing or distributing gases or liquids
+F21,Lighting
+F22,Steam generation
+F23,Combustion apparatus; combustion processes
+F24,Heating; ranges; ventilating
+F25,Refrigeration or cooling; combined heating and refrigeration systems; heat pump systems; manufacture or storage of ice; liquefaction solidification of gases
+F26,Drying
+F27,Furnaces; kilns; ovens; retorts
+F28,Heat exchange in general
+F41,Weapons
+F42,Ammunition; blasting
+F99,Subject matter not otherwise provided for in this section

@@ -7,3 +7,4 @@ E,Fixed constructions
 F,Mechanical engineering; lighting; heating; weapons; blasting engines or pumps
 G,Physics
 H,Electricity
+Y,General tagging of new technological developments; general tagging of cross-sectional technologies spanning over several sections of the IPC; technical subjects covered by former USPC cross-reference art collections [XRACs] and digests

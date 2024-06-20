@@ -1,0 +1,4 @@
+Code CPC,Description
+Y02,Technologies or applications for mitigation or adaptation against climate change
+Y04,Information or communication technologies having an impact on other technology areas
+Y10,Technical subjects covered by former USPC

@@ -1,0 +1,9 @@
+Code CPC,Description
+E01,Construction of roads, railways, or bridges
+E02,Hydraulic engineering; foundations; soil shifting
+E03,Water supply; sewerage
+E04,Building
+E05,Locks; keys; window or door fittings; safes
+E06,Doors, windows, shutters, or roller blinds in general; ladders
+E21,Earth or rock drilling; mining
+E99,Subject matter not otherwise provided for in this section

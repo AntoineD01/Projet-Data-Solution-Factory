@@ -1,0 +1,39 @@
+Code CPC,Description
+B01,Physical or chemical processes or apparatus in general
+B02,Crushing, pulverising, or disintegrating; preparatory treatment of grain for milling
+B03,Separation of solid materials using liquids or using pneumatic tables or jigs; magnetic or electrostatic separation of solid materials from solid materials or fluids; separation by high-voltage electric fields
+B04,Centrifugal apparatus or machines for carrying-out physical or chemical processes
+B05,Spraying or atomising in general; applying fluent materials to surfaces, in general
+B06,Generating or transmitting mechanical vibrations in general
+B07,Separating solids from solids; sorting
+B08,Cleaning
+B09,Disposal of solid waste; reclamation of contaminated soil; shaping
+B21,Mechanical metal-working without essentially removing material; punching metal
+B22,Casting; powder metallurgy
+B23,Machine tools; metal-working not otherwise provided for
+B24,Grinding; polishing
+B25,Hand tools; portable power-driven tools; manipulators
+B26,Hand cutting tools; cutting; severing
+B27,Working or preserving wood or similar material; nailing or stapling machines in general
+B28,Working cement, clay, or stone
+B29,Working of plastics; working of substances in a plastic state in general
+B30,Presses
+B31,Making articles of paper, cardboard or material worked in a manner analogous to paper; working paper, cardboard or material worked in a manner analogous to paper
+B32,Layered products
+B33,Additive manufacturing technology; printing
+B41,Printing; lining machines; typewriters; stamps
+B42,Bookbinding; albums; files; special printed matter
+B43,Writing or drawing implements; bureau accessories
+B44,Decorative arts; transporting
+B60,Vehicles in general
+B61,Railways
+B62,Land vehicles for travelling otherwise than on rails
+B63,Ships or other waterborne vessels; related equipment
+B64,Aircraft; aviation; cosmonautics
+B65,Conveying; packing; storing; handling thin or filamentary material
+B66,Hoisting; lifting; hauling
+B67,Opening, closing or cleaning bottles, jars or similar containers; liquid handling
+B68,Saddlery; upholstery; microstructural technology; nanotechnology
+B81,Microstructural technology
+B82,Nanotechnology
+B99,Subject matter not otherwise provided for in this section

@@ -1,0 +1,11 @@
+Code CPC,Description
+D01,Natural or man-made threads or fibres; spinning
+D02,Yarns; mechanical finishing of yarns or ropes; warping or beaming
+D03,Weaving
+D04,Braiding; lace-making; knitting; trimmings; non-woven fabrics
+D05,Sewing; embroidering; tufting
+D06,Treatment of textiles or the like; laundering; flexible materials not otherwise provided for
+D07,Ropes; cables other than electric
+D10,Indexing scheme associated with subclasses of Section D, relating to textiles
+D21,Paper-making; production of cellulose
+D99,Subject matter not otherwise provided for in this section
