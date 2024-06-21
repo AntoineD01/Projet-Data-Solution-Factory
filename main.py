@@ -19,13 +19,19 @@ def clean_text(text):
     return ' '.join(tokens)
 
 # Lire le fichier CSV
-df = pd.read_csv('EFREI - LIPSTIP - 50k elements EPO.csv', nrows=2000)  
+df = pd.read_csv('dataset.csv', nrows=10000)  
 
-# Nettoyer les descriptions
+if 'IPC' in df.columns:
+    df.drop(columns=['IPC'], inplace=True)
+    print("La colonne 'IPC' a été supprimée avec succès.")
+else:
+    print("La colonne 'IPC' n'existe pas dans le DataFrame.")
+
+# Nettoyer les descriptions PAS NECESSAIRE
 df['Cleaned_Description'] = df['description'].apply(clean_text)
 
-# Vectoriser les descriptions nettoyées avec TF-IDF
-tfidf_vectorizer = TfidfVectorizer(max_features=5000)  # Limite à 5000 mots les plus fréquents
+# Vectoriser les descriptions nettoyées avec TF-IDF POURQUOI ??? 
+tfidf_vectorizer = TfidfVectorizer(max_features=9000)  # Limite à 5000 mots les plus fréquents
 X = tfidf_vectorizer.fit_transform(df['Cleaned_Description'])
 
 # Simplifier les labels CPC en utilisant uniquement la première lettre et les deux premiers chiffres
@@ -55,3 +61,12 @@ for idx, cpc_code in enumerate(model.classes_[:20]):
     top_features = coefficients[idx].argsort()[-10:][::-1]
     top_words = [feature_names[i] for i in top_features]
     print(f"Mots-clés pour CPC {cpc_code} : {', '.join(top_words)}")
+
+
+#idées
+## Vérifier les valeurs manquantes
+#print(df.isnull().sum())
+
+## Par exemple, supprimer les lignes avec des valeurs manquantes dans 'description' et 'CPC'
+#df.dropna(subset=['description', 'CPC'], inplace=True)
+
